@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/birthDayCard.dart';
+import 'package:flutter_application_1/businessCard.dart';
 
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   // This widget is the root of  application.
   @override
@@ -13,10 +13,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.brown,
       ),
       //home: MyHomePage(title: 'First Application'),
-      home: BirthDayCard(title: 'Birthday Card'),
+      home: businessCard(title: 'Business  Card'),
     );
   }
 }
