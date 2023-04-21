@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/birthDayCard.dart';
 import 'package:flutter_application_1/businessCard.dart';
 
+import 'basketballPointsCounter.dart';
+
 void main() {
   runApp(MyApp());
 }
+
 class MyApp extends StatelessWidget {
   // This widget is the root of  application.
   @override
@@ -16,7 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.brown,
       ),
       //home: MyHomePage(title: 'First Application'),
-      home: businessCard(title: 'Business  Card'),
+      //home: businessCard(title: 'Business  Card'),
+      home: BasketballPointsCounter(title: 'Basketball Score Counter'),
     );
   }
 }
